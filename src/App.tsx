@@ -196,6 +196,10 @@ function App(){
                                     <span aria-hidden="true">✦</span>
                                     <span>Votre prochaine réussite commence par une nouvelle tentative.</span>
                                 </div>
+                                <p className="result-contact">
+                                    Projet Quiz-Ma — Un bug ou une suggestion pour le cours ? Écris-moi à{" "}
+                                    <a href="mailto:darielstone940@gmail.com">darielstone940@gmail.com</a>
+                                </p>
                             </section>
                         )}
                         <Footer stateQuiz={stateQuiz} setStateQuiz={setStateQuiz} score={score} setscore={setscore} setExplique={setExplique} setNumQuest={setNumQuest} setQuest={setQuest} setIndex={setIndex} estvalider={estvalide} setEstvalider={setEstvalide} index={index}/>

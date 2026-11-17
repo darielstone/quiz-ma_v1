@@ -400,6 +400,17 @@ input:focus-visible + * {
     font-size: 1.2rem;
 }
 
+.result-contact {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.78rem;
+    line-height: 1.5;
+}
+
+.result-contact a {
+    color: inherit;
+}
+
 @media (max-width: 560px) {
     .app-shell {
         padding: 1rem 0.75rem;
