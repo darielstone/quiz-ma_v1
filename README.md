@@ -26,4 +26,4 @@ Pour tester le projet sur votre machine :
    ```
 
 ## 🌐 Déploiement
-L'application est hébergée sur **Vercel**.
+L'application est hébergée sur **Vercel** a l'adresse : [text](https://quiz-ma-v1.vercel.app/).
