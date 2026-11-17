@@ -1,5 +1,6 @@
 import {useState} from "react"
 import Questions from "./question.ts"
+import { Analytics } from '@vercel/analytics/react';
 //composant d'entete
 function Header(){
     return(
@@ -200,6 +201,7 @@ function App(){
                         <Footer stateQuiz={stateQuiz} setStateQuiz={setStateQuiz} score={score} setscore={setscore} setExplique={setExplique} setNumQuest={setNumQuest} setQuest={setQuest} setIndex={setIndex} estvalider={estvalide} setEstvalider={setEstvalide} index={index}/>
                         </div>
                 </div>
+                <Analytics />
             </main>
     )
 }
